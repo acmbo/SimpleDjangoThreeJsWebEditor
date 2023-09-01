@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+/* Reset some default styles */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the menu bar */
+.menu-bar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the menu items */
+.menu-bar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-bar li {
+  margin-right: 20px;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu-bar a:hover {
+  color: #ff9900;
+}
+
+/* Highlight the active menu item */
+.menu-bar .active a {
+  color: #ff9900;
+}
